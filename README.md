@@ -26,6 +26,10 @@ The main landing page with options to "Open Skill Radar" or "Try a demo."
 
 ***User Role Selection***
 
+The user selection screen to sign in as a "Recruiter" or "Candidate."
+
+
+
 <img width="1280" height="576" alt="image" src="https://github.com/user-attachments/assets/f87016b4-0439-4f54-b674-ef34ecb365b6" />
 
 

@@ -4,6 +4,8 @@ from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.exceptions import RequestValidationError
+
+
 import os
 from os.path import exists
 from api.config import UPLOAD_FOLDER_NAME
@@ -59,7 +61,7 @@ if settings.bugsnag_api_key:
     )
 
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(lifespan=lifespan )
 
 # Add Bugsnag middleware if configured
 if settings.bugsnag_api_key:
@@ -119,6 +121,8 @@ app.include_router(code.router, prefix="/code", tags=["code"])
 app.include_router(hva.router, prefix="/hva", tags=["hva"])
 app.include_router(websocket_router, prefix="/ws", tags=["websockets"])
 app.include_router(dashboard.router, prefix="/api", tags=["dashboard"])
+
+
 
 
 @app.get("/health")

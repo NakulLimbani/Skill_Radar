@@ -3,7 +3,6 @@ from pydantic import BaseModel
 from typing import List, Tuple, Optional, Dict, Literal
 from datetime import datetime
 
-
 class UserLoginData(BaseModel):
     email: str
     given_name: str
@@ -705,3 +704,5 @@ class SaveCodeDraftRequest(BaseModel):
 class CodeDraft(BaseModel):
     id: int
     code: List[LanguageCodeDraft]
+
+

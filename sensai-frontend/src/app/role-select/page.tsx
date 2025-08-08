@@ -10,7 +10,7 @@ export default function RoleSelect() {
   };
 
   const handleCandidateClick = () => {
-    router.push("/dashboard?role=candidate");
+    router.push("/candidate/register"); // updated to new registration flow
   };
 
   return (

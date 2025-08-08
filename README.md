@@ -152,8 +152,8 @@ Feel free to check the [issues page](../../issues).
 | Member | Role |
 |--------|------|
 | 🧑‍💻 **Shiv Rastogi** | Full Stack Development & Integration |
-| 🧑‍💻 **Prakeerth Gollapati** | Backend & Database Management |
-| 🧑‍💻 **Nakul Limbani** | Frontend & UI/UX Design |
+| 🧑‍💻 **Nakul Limbani** | Backend & Database Management |
+| 🧑‍💻 **Prakeerth Gollapati** | Frontend & UI/UX Design |
 
 ---
 

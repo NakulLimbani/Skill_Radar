@@ -122,7 +122,7 @@ Export detailed performance summaries with trends and evidence.
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/skill_radar.git
+git clone https://github.com/NakulLimbani/Skill_Radar.git
 
 # Frontend setup
 cd sensai-frontend

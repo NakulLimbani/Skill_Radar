@@ -133,6 +133,7 @@ npm run dev
 cd ../sensai-ai
 pip install -r requirements.txt
 uvicorn api.main:app --reload
+```
 ---
 
 ## 📜 License

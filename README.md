@@ -1,21 +1,45 @@
 # Sensai: Skill Radar - Evidence-Driven Hiring Dashboard
 
 🔍 Context
-Recruiters need to make confident and quick hiring decisions, but raw test scores often fail to provide a complete picture of a candidate's abilities. Sensai's "Skill Radar" is a visual, evidence-driven dashboard designed to compress hours of resume reading into minutes. It allows hiring teams to see the detailed evidence behind every skill, providing a deeper understanding of a candidate's proficiency.
+Recruiters need to make quick and confident hiring decisions, but raw test scores often fail to capture the complete picture of a candidate's abilities. That's where Sensai's Skill Radar comes in — a visual, evidence-driven dashboard designed to compress hours of resume reading into just minutes.
 
-🎯 Mission
-Sensai's Skill Radar Dashboard automatically translates candidate assessment data into an interactive radar chart. Recruiters can click on any skill (e.g., SQL, Data Structures) to reveal the underlying evidence. This evidence includes code snippets, test run histories, error-fix timelines, peer-review comments, and performance trends over multiple attempts.
+With Skill Radar, hiring teams gain immediate access to detailed evidence behind every skill, offering a deeper understanding of a candidate's proficiency.
 
-⚙️ Key Features
-Evidence-Driven Drill-downs: One-click access to specific artifacts (commits, rationales, replays) that justify each skill score.
+✨ Key Features
+🔍 Evidence-Driven Drill-downs
+One-click access to specific artifacts:
+Code snippets, test run histories, error-fix timelines, peer reviews, and performance trends.
 
-Signal Density: Combines multiple metrics (accuracy, efficiency, and iteration quality) into a single, normalized score per skill.
+Instant visibility into what justifies each skill score.
 
-Recruiter Efficiency: The full candidate profile loads in under 5 seconds, and a PDF one-pager can be exported with a single click.
+📊 Signal Density
+Combines accuracy, efficiency, and iteration quality into a single, normalized score per skill.
 
-Evidence Integrity: Automatically flags potential plagiarism or over-reliance on AI, with the option for reviewers to override with notes.
+See at a glance how a candidate measures up in critical areas!
 
-Accessibility: Designed with dark-mode readiness, keyboard navigation, and WCAG-AA compliant PDF templates.
+⚡ Recruiter Efficiency
+The full candidate profile loads in under 5 seconds.
+
+Export a PDF one-pager with all the candidate's insights and scores in just one click.
+
+🔒 Evidence Integrity
+Plagiarism and AI overuse detection flags.
+
+Reviewers can override these flags and leave notes, providing more context.
+
+🌙 Accessibility
+Dark-mode ready for late-night hiring.
+
+Keyboard navigation and WCAG-AA compliant PDF templates for an inclusive experience.
+
+🚀 The Sensai Advantage
+Get immediate insights into candidate performance without the clutter.
+
+Make informed decisions based on detailed evidence and normalized skill scores.
+
+Boost your recruitment speed and accuracy while ensuring integrity.
+
+
 
 
 ***Skill Radar Landing Page***

@@ -1,119 +1,165 @@
-# Sensai: Skill Radar - Evidence-Driven Hiring Dashboard
+# 🎯 Skill Radar - Evidence-Driven Hiring Dashboard
 
-🔍 Context
-Recruiters need to make quick and confident hiring decisions, but raw test scores often fail to capture the complete picture of a candidate's abilities. That's where Sensai's Skill Radar comes in — a visual, evidence-driven dashboard designed to compress hours of resume reading into just minutes.
+> 🚀 **Boost recruitment speed & accuracy** while ensuring integrity through evidence-driven skill assessment.
 
-With Skill Radar, hiring teams gain immediate access to detailed evidence behind every skill, offering a deeper understanding of a candidate's proficiency.
+![Made with React](https://img.shields.io/badge/Made%20with-React-blue?style=flat&logo=react)
+![Made with FastAPI](https://img.shields.io/badge/Made%20with-FastAPI-009688?style=flat&logo=fastapi)
+![Database](https://img.shields.io/badge/Database-SQLite-blue?style=flat&logo=sqlite)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)
 
-✨ Key Features
-🔍 Evidence-Driven Drill-downs
-One-click access to specific artifacts:
-Code snippets, test run histories, error-fix timelines, peer reviews, and performance trends.
+---
 
-Instant visibility into what justifies each skill score.
+## 📌 Overview
+**Skill Radar** is an interactive dashboard that empowers recruiters to **visualize, compare, and analyze** candidates’ skills using **radar charts, evidence panels, and PDF exports**.
 
-📊 Signal Density
-Combines accuracy, efficiency, and iteration quality into a single, normalized score per skill.
+💡 *Say goodbye to raw test scores — get the “why” behind performance!*
 
-See at a glance how a candidate measures up in critical areas!
+---
 
-⚡ Recruiter Efficiency
-The full candidate profile loads in under 5 seconds.
+## 🚀 Features
 
-Export a PDF one-pager with all the candidate's insights and scores in just one click.
+- 👥 **Role-based Access** — Recruiter & Candidate views
+- 📊 **Radar Chart Visualization** — Compare skill scores at a glance
+- 🗂 **Skill Evidence Panel** — Code, logs, trends, and peer reviews
+- 📄 **PDF Report Export** — One-click skill report generation
+- 🧑‍💻 **Candidate Registration & Assessment** — Personalized skill tests
+- 🎯 **Performance Insights** — Trends and attempt history
 
-🔒 Evidence Integrity
-Plagiarism and AI overuse detection flags.
+---
 
-Reviewers can override these flags and leave notes, providing more context.
+## 🖼 UI Previews
 
-🌙 Accessibility
-Dark-mode ready for late-night hiring.
+<details>
+<summary>🏠 Landing Page</summary>
 
-Keyboard navigation and WCAG-AA compliant PDF templates for an inclusive experience.
+The main landing page with options to **Open Skill Radar** or **Try a demo**.
 
-🚀 The Sensai Advantage
-Get immediate insights into candidate performance without the clutter.
+<img width="1280" height="580" alt="Landing Page" src="https://github.com/user-attachments/assets/992824c9-e6ef-4012-af5b-c8da691c0f0b" />
 
-Make informed decisions based on detailed evidence and normalized skill scores.
+</details>
 
-Boost your recruitment speed and accuracy while ensuring integrity.
+<details>
+<summary>👥 User Role Selection</summary>
+
+Sign in as a **Recruiter** or **Candidate**.
+
+<img width="1280" height="576" alt="Role Selection" src="https://github.com/user-attachments/assets/f87016b4-0439-4f54-b674-ef34ecb365b6" />
+
+</details>
+
+<details>
+<summary>📊 Recruiter Dashboard</summary>
+
+View a list of candidates and open their skill radar profiles.
+
+<img width="1280" height="573" alt="Recruiter Dashboard" src="https://github.com/user-attachments/assets/9e03eb96-593d-4c03-af5c-5c08f4eeaeda" />
+
+</details>
+
+<details>
+<summary>🌐 Sensai Platform Context</summary>
+
+Integrated into the Sensai platform with courses and leaderboards.
+
+<img width="1280" height="581" alt="Platform Context" src="https://github.com/user-attachments/assets/de6c7831-161d-4247-8649-912f31cbde5d" />
+
+</details>
+
+<details>
+<summary>📈 Candidate Skill Radar</summary>
+
+Visualize skill scores for **Algorithms, SQL, System Design, and Debugging**.  
+Includes **Export PDF** button.
+
+<img width="1280" height="579" alt="Skill Radar" src="https://github.com/user-attachments/assets/17a5700f-aee2-4e96-b624-001d2e3455ee" />
+
+</details>
+
+<details>
+<summary>🧾 Skill Evidence Panel</summary>
+
+- **Overview Tab** — Summary & score  
+- **Code Tab** — Candidate's best attempt  
+- **Logs Tab** — Step-by-step actions  
+- **Trend Tab** — Performance over attempts  
+- **Reviews Tab** — Peer feedback  
+
+<img width="1280" height="578" alt="Evidence Overview" src="https://github.com/user-attachments/assets/076da431-ee33-4226-8e3c-e50016fda72b" />
+
+</details>
+
+<details>
+<summary>📄 Candidate PDF Report</summary>
+
+Export detailed performance summaries with trends and evidence.
+
+<img width="658" height="792" alt="PDF Report" src="https://github.com/user-attachments/assets/d206f6c2-ae84-47ab-8362-3099601906a8" />
+
+</details>
+
+---
+
+## 🛠 Tech Stack
+
+| **Frontend** | **Backend** | **Database** | **Other Tools** |
+|--------------|-------------|--------------|-----------------|
+| ⚛️ React | ⚡ FastAPI | 🗄 SQLite | 📊 Chart.js |
+| 🎨 TailwindCSS | 🐍 Python | | 📄 ReportLab (PDF) |
+
+---
+
+## 🔄 Workflow
+
+1. 🧑‍🎓 **Candidate Registration** → Enter name & select skills  
+2. 📝 **Skill Assessment** → Personalized test  
+3. 👔 **Recruiter View** → Radar chart & skill evidence  
+4. 📥 **Export Report** → Download PDF with all details  
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/skill_radar.git
+
+# Frontend setup
+cd sensai-frontend
+npm install
+npm run dev
+
+# Backend setup
+cd ../sensai-ai
+pip install -r requirements.txt
+uvicorn api.main:app --reload
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](../../issues).
+
+---
+
+## 👥 Team "Locked In"
+
+| Member | Role |
+|--------|------|
+| 🧑‍💻 **Shiv Rastogi** | Full Stack Development & Integration |
+| 🧑‍💻 **Prakeerth Gollapati** | Backend & Database Management |
+| 🧑‍💻 **Nakul Limbani** | Frontend & UI/UX Design |
+
+---
+
+## 📧 Contact
+📌 **Team Name:** Locked In  
+
+---
 
 
 
-
-***Skill Radar Landing Page***
-
-The main landing page with options to "Open Skill Radar" or "Try a demo."
-
-<img width="1280" height="580" alt="image" src="https://github.com/user-attachments/assets/992824c9-e6ef-4012-af5b-c8da691c0f0b" />
-
-***User Role Selection***
-
-The user selection screen to sign in as a "Recruiter" or "Candidate."
-
-
-
-<img width="1280" height="576" alt="image" src="https://github.com/user-attachments/assets/f87016b4-0439-4f54-b674-ef34ecb365b6" />
-
-
-***Recruiter Dashboard***
-
-The recruiter view of the Skill Radar dashboard, showing a list of candidates.
-
-<img width="1280" height="573" alt="image" src="https://github.com/user-attachments/assets/9e03eb96-593d-4c03-af5c-5c08f4eeaeda" />
-
-
-***Sensai Platform Context***
-
-The Sensai platform's "Sensai 101" course and leaderboard, showing the context of the larger product.
-
-<img width="1280" height="581" alt="image" src="https://github.com/user-attachments/assets/de6c7831-161d-4247-8649-912f31cbde5d" />
-
-
-***Candidate Skill Radar View***
-
-A recruiter's view of Alice Johnson's skill radar, showing scores for Algorithms, SQL, System Design, and Debugging. An "Export PDF" button is visible.
-
-<img width="1280" height="579" alt="image" src="https://github.com/user-attachments/assets/17a5700f-aee2-4e96-b624-001d2e3455ee" />
-
-
-***Skill Evidence Overview***
-
-The dashboard with a "Skill Evidence" panel expanded below the radar chart, showing an overview of a specific skill's performance with a summary and score.
-
-<img width="1280" height="578" alt="image" src="https://github.com/user-attachments/assets/076da431-ee33-4226-8e3c-e50016fda72b" />
-
-
-***Code Snippet View***
-
-A close-up of the "Skill Evidence" panel, specifically the "Code" tab, displaying a placeholder code snippet for the candidate's best attempt.
-
-<img width="1100" height="385" alt="image" src="https://github.com/user-attachments/assets/cf103206-9045-47f8-8a35-3ce9c8f6fa7f" />
-
-
-***Performance Logs***
-
-A close-up of the "Skill Evidence" panel, specifically the "Logs" tab, showing time-stamped entries detailing the candidate's actions, such as fixing a join issue or switching to a window function.
-
-<img width="1014" height="329" alt="image" src="https://github.com/user-attachments/assets/a1b1c5e2-d111-4fc4-825d-0e34d3c0d18a" />
-
-
-***Performance Trend Chart***
-
-A close-up of the "Skill Evidence" panel, specifically the "Trend" tab, showing a bar chart (placeholder "sparkline") visualizing the candidate's performance across multiple attempts over time.
-
-<img width="1032" height="312" alt="image" src="https://github.com/user-attachments/assets/1fb0c8e2-596d-4ab6-af09-12989d259d36" />
-
-
-***Peer Review Tab***
-
-A close-up of the "Skill Evidence" panel, specifically the "Reviews" tab, displaying comments from multiple reviewers (e.g., "Reviewer A" and "Reviewer B").
-
-<img width="1032" height="312" alt="image" src="https://github.com/user-attachments/assets/e87fba0a-81d3-4d18-98d6-af6f3c7ecdce" />
-
-***Candidate PDF Report***
-
-A sample PDF report for Alice Johnson, showing highlights, skill scores, trend summaries, and evidence for each skill.
-
-<img width="658" height="792" alt="image" src="https://github.com/user-attachments/assets/d206f6c2-ae84-47ab-8362-3099601906a8" />
